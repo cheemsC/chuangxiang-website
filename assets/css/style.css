@@ -141,18 +141,47 @@ img{max-width:100%;display:block}
   aspect-ratio:16/9;
   object-fit:cover;
 }
+
+.footer-grid p{
+  overflow-wrap:anywhere;
+}
+
+
+
+/* 联系我们页：左右两栏等宽等高 */
+.contact-layout,
+.contact-grid,
+.contact-wrap{
+  align-items:stretch;
+}
+
+.contact-layout > *,
+.contact-grid > *,
+.contact-wrap > *{
+  height:100%;
+}
+
 .map-image{
   border:1px solid #d9e3ea;
   border-radius:14px;
   overflow:hidden;
   background:#f5f8fa;
-  align-self:start;
+  align-self:stretch;
+  min-height:100%;
+  height:100%;
+  display:flex;
 }
+
 .map-image img{
   width:100%;
-  height:auto;
+  height:100%;
   display:block;
+  object-fit:cover;
 }
-.footer-grid p{
-  overflow-wrap:anywhere;
+
+/* 若联系信息卡片本身未拉伸，强制与地图区域保持一致视觉高度 */
+.contact-card,
+.contact-info,
+.contact-box{
+  height:100%;
 }
