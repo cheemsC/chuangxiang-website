@@ -4,7 +4,7 @@ window.SITE_CONFIG = {
   companyName2: "宁波得翔电子有限公司",
   brandName: "创翔电子 · 得翔电子",
   companyShort: "创翔电子",
-  slogan: "专注连接器、电源插座、各国标准电源线与接线端子制造",
+  slogan: "专注连接器、电源插座、电源线与接线端子制造",
   subSlogan: "支持多系列、多规格产品供应及 OEM / ODM 配套",
   phone: "0574-63552827",
   mobile1: "13600615234",

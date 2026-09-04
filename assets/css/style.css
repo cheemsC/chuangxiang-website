@@ -79,12 +79,10 @@ img{max-width:100%;display:block}
 .page-hero{padding:76px 0;background:linear-gradient(120deg,#0a4776,#0d6ea9);color:#fff}
 .page-hero h1{font-size:42px;margin:0 0 10px}
 .page-hero p{margin:0;color:#d8eaf4}
-.catalog-note{background:#fff8df;border:1px solid #f1df9d;padding:14px 16px;border-radius:8px;color:#765c0a;margin-bottom:24px}
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 .contact-card{padding:30px;border:1px solid #e1e8ed;border-radius:14px;background:#fff}
 .contact-list{display:grid;gap:15px}
 .contact-item b{display:block;font-size:13px;color:var(--muted);margin-bottom:3px}
-.map-placeholder{background:linear-gradient(135deg,#dfeaf2,#f5f8fa);min-height:360px;border-radius:14px;display:grid;place-items:center;text-align:center;padding:30px;border:1px solid #d9e3ea}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:80;display:none;padding:32px;overflow:auto}
 .modal.show{display:block}
 .modal-panel{background:#fff;width:min(1100px,100%);margin:auto;border-radius:14px;overflow:hidden}
@@ -136,3 +134,25 @@ img{max-width:100%;display:block}
 .footer-company-names{display:grid;gap:3px}
 @media(max-width:900px){.brand-text small{display:none}.entity-grid{grid-template-columns:1fr}}
 @media(max-width:620px){.brand-text strong{font-size:15px}}
+
+
+.about-grid .content-visual{
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+.map-image{
+  border:1px solid #d9e3ea;
+  border-radius:14px;
+  overflow:hidden;
+  background:#f5f8fa;
+  align-self:start;
+}
+.map-image img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.footer-grid p{
+  overflow-wrap:anywhere;
+}
