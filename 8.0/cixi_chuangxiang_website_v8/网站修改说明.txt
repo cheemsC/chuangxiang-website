@@ -1,0 +1,39 @@
+创翔电子 · 得翔电子 官网第三版修改说明
+
+【两个公司名称】
+统一在 assets/js/config.js 修改：
+companyName: "慈溪市逍林创翔电子厂",
+companyName2: "宁波得翔电子有限公司",
+brandName: "创翔电子 · 得翔电子",
+
+修改一次，全站同步更新。
+
+【电话 / 邮箱 / 地址】
+仍然在 assets/js/config.js 修改。
+目前这些联系方式来自原产品书，作为网站业务咨询信息展示。
+如果“宁波得翔电子有限公司”有独立电话、地址、邮箱，可以再增加第二套联系方式。
+
+【换企业标】
+用新的 PNG 图片替换：
+assets/images/logo.png
+
+【换图片】
+首页及产品图片都在：
+assets/images/
+
+最简单的方法是保持原文件名，直接用新图片覆盖旧图片。
+
+【改网页正文】
+index.html       首页
+products.html    产品中心
+factory.html     工厂实力
+about.html       关于我们 / 双公司主体
+contact.html     联系我们
+
+【免费部署后如何更新】
+如果使用 GitHub Pages：
+1. 打开网站对应 GitHub 仓库。
+2. 找到要修改的文件。
+3. 文字：直接在线编辑并 Commit changes。
+4. 图片：进入 assets/images，上传同名新图片覆盖原图。
+5. 提交后 GitHub Pages 会自动重新发布。
